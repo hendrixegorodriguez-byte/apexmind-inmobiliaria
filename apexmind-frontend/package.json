@@ -1,0 +1,10 @@
+{
+  "name": "apexmind-frontend",
+  "version": "1.0.0",
+  "description": "Frontend de APEXMIND Inmobiliaria (JavaScript vanilla con módulos ES, sin build).",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "npx --yes http-server src -p 5173 -c-1 -o"
+  }
+}

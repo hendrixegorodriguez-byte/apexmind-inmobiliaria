@@ -1,0 +1,15 @@
+.hero {
+  --hero-image: url('https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1920&q=80');
+  padding: 90px 0 130px;
+  color: #fff;
+  background: linear-gradient(rgba(17, 20, 24, 0.75), rgba(17, 20, 24, 0.85)), var(--hero-image) center / cover no-repeat;
+}
+
+.search-box-container { position: relative; z-index: 10; margin-top: -50px; }
+.search-card {
+  padding: 25px;
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
