@@ -1,0 +1,10 @@
+.auth-container { display: flex; align-items: center; justify-content: center; min-height: 85vh; padding: 20px; background: var(--color-bg-dark); }
+.auth-card {
+  width: 100%; max-width: 450px; padding: 35px;
+  background: var(--color-surface-dark);
+  border: 1px solid rgba(197, 160, 89, 0.2);
+  border-radius: var(--radius-md);
+}
+
+.form-control-dark { background-color: var(--color-bg-dark); border: 1px solid var(--color-border-dark); color: #fff; }
+.form-control-dark:focus { background-color: var(--color-bg-dark); color: #fff; border-color: var(--color-gold); box-shadow: 0 0 0 0.2rem rgba(197, 160, 89, 0.25); }
