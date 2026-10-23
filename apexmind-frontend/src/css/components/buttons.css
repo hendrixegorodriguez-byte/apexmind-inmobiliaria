@@ -1,0 +1,17 @@
+/* Botón de marca construido con las variables oficiales de Bootstrap 5.3 (sin !important). */
+.btn-gold {
+  --bs-btn-color: var(--color-bg-dark);
+  --bs-btn-bg: var(--color-gold);
+  --bs-btn-border-color: var(--color-gold);
+  --bs-btn-hover-color: var(--color-bg-dark);
+  --bs-btn-hover-bg: var(--color-gold-hover);
+  --bs-btn-hover-border-color: var(--color-gold-hover);
+  --bs-btn-active-color: var(--color-bg-dark);
+  --bs-btn-active-bg: var(--color-gold-hover);
+  --bs-btn-active-border-color: var(--color-gold-hover);
+  --bs-btn-disabled-color: var(--color-bg-dark);
+  --bs-btn-disabled-bg: var(--color-gold);
+  --bs-btn-disabled-border-color: var(--color-gold);
+  --bs-btn-focus-shadow-rgb: 197, 160, 89;
+  font-weight: 600;
+}

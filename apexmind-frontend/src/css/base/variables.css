@@ -1,0 +1,17 @@
+/* Design tokens: cambiar la marca = editar solo este archivo. */
+:root {
+  --color-bg-dark: #111418;
+  --color-surface-dark: #1a1f26;
+  --color-border-dark: #2d3748;
+  --color-gold: #c5a059;
+  --color-gold-hover: #b08c4a;
+  --color-bg-light: #f8f9fa;
+  --color-text: #1a202c;
+  --color-border: #e2e8f0;
+  --color-danger: #dc3545;
+
+  --radius-md: 12px;
+  --shadow-card: 0 12px 25px rgba(0, 0, 0, 0.1);
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --transition: 0.25s ease;
+}

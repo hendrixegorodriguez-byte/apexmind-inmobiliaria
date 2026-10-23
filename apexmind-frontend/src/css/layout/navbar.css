@@ -1,0 +1,19 @@
+.site-navbar {
+  background-color: var(--color-bg-dark);
+  border-bottom: 1px solid rgba(197, 160, 89, 0.2);
+}
+
+.brand__title { display: block; font-size: 1.1rem; font-weight: 700; color: #fff; }
+.brand__subtitle { display: block; margin-top: 2px; font-size: 0.65rem; font-weight: 700; letter-spacing: 1px; color: var(--color-gold); }
+
+.nav-link-custom {
+  display: block;
+  padding: 0.5rem 0.8rem;
+  color: var(--color-border);
+  font-weight: 300;
+  text-decoration: none;
+  transition: color var(--transition);
+}
+.nav-link-custom:hover,
+.nav-link-custom.is-active { color: var(--color-gold); }
+.nav-link-custom.is-active { font-weight: 500; }
